@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# DataSets Folder - This is where all of our training data is saved and it's to be ignored. Otherwise we overrun allocated space in our repo
+DataSet/
+
 # C extensions
 *.so
 

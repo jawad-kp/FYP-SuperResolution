@@ -11,6 +11,11 @@ DataSet/
 *.bsh
 *.sh
 
+# Ignore zip files and such
+*.7z
+*.rar
+*.zip
+
 # C extensions
 *.so
 

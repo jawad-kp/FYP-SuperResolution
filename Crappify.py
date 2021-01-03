@@ -26,7 +26,7 @@ class Crappifier():
 		ImgObj = Image.open(Fname)#open image
 		TSze = RSzer(ImgObj,self.ScaleFactor)
 		WasaImg = ImgObj.resize(TSze, resample=Image.BILINEAR).convert('RGB')
-		q = random.randint(0,99)
+		q = random.randint(50,99)
 		if (random.randint(1,2) == 2):
 			ColorVals = (random.randint(0,255),random.randint(0,255),random.randint(0,255)) #Random RGB Values
 			ImageDraw.Draw(WasaImg).text((random.randint(0,TSze[0]//2),random.randint(0,TSze[1]//2)), str(q), fill=ColorVals)

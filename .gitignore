@@ -6,6 +6,9 @@ __pycache__/
 # DataSets Folder - This is where all of our training data is saved and it's to be ignored. Otherwise we overrun allocated space in our repo
 DataSet/
 
+# Models folder
+Models/
+
 # Command line files to ease use not necessary for commit
 *.bat
 *.bsh

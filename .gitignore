@@ -8,6 +8,12 @@ DataSet/
 
 # Models folder
 Models/
+# Results Folder
+Results/
+# Frames Folder
+frames/
+# Video Files I have saved
+*.avi
 
 # Command line files to ease use not necessary for commit
 *.bat

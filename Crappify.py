@@ -5,7 +5,7 @@ from pathlib import Path
 import random
 
 
-ap = argparse.ArgumentParser(description="Creat low-res copies of our data and add random noise to it") #Argument object
+ap = argparse.ArgumentParser(description="Create low-res copies of our data and add random noise to it") #Argument object
 ap.add_argument("-l","--location", required = True, help="Path to data-set Folder")
 
 args = vars(ap.parse_args())

@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 
 fourcc = cv.VideoWriter_fourcc(*'DIVX')
-Out = cv.VideoWriter('UpscaledFile-DIVX.avi', fourcc, 24.0, (680,680),True)
+Out = cv.VideoWriter('UpscaledFile-DIVX.avi', fourcc, 24.0, (1020,1020),True)
 FrameLoc = Path("frames/VideoFrames-Upscaled")
 FramNum = 1
 LastFrame = 240
